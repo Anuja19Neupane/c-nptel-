@@ -7,6 +7,7 @@ int main()
 {
 
     vector<int> arr(Max); // Declares a vector named arr that can hold integers.
+        // vector means list
     cout << "Enter the number of elements: ";
     int count, sum = 0;
     cin >> count;
