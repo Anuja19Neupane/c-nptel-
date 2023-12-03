@@ -8,7 +8,7 @@ int main()
 {
     int a = 20;
     cout << "a = " << a << ", &a = " << &a << endl << endl;
-    for_parameter_test(a,a); // sunction call
+    for_parameter_test(a,a); // function call
 }
 void for_parameter_test (int &b , int c) // if u change b, a will change cuz, it is call by reference parameter
                                         // for int c : it is a call by value parameter
