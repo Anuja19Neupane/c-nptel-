@@ -10,7 +10,7 @@ E operator+(const E &a, const E &b) // overloaded operator +
 {
     unsigned int uia = a, uib = b;
     unsigned int t = (uia + uib) % 3;
-    return (E)t;
+    return (E)t; //typec  ast
 }
 int main()
 {
